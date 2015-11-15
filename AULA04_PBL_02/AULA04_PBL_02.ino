@@ -1,9 +1,9 @@
-const int sensorDark = 600;
-int photocellPin = A0;
-int LEDPin = 2;
+const int sensorDark = 500;
+int photocellPin = A1;
+int LEDPin = 3;
 
 void setup(){
-  pinMode(LEDPin, OUTPUT);
+  pinMode(LEDPin,INPUT);
 }
 
 void loop(){
